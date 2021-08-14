@@ -1,6 +1,6 @@
 ---
 layout: collection
-permalink: "/gallery"
+permalink: "/gallery/"
 gallery:
     - url: /assets/images/gallery/boats_moored.jpg
       image_path: /assets/images/gallery/thumbnails/boats_moored.jpg
