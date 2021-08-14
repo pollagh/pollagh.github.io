@@ -43,7 +43,7 @@ plugins:
 footer:
   links:
     - label: "Contact"
-      icon: "fab fa-fw fa-envelope-open"
+      icon: "fas fa-fw fa-envelope"
       url: "/contact"
     - label: "Wikipedia"
       icon: "fab fa-fw fa-wikipedia-w"
@@ -75,3 +75,6 @@ category_archive:
 tag_archive:
   type: liquid
   path: /tags/
+
+atom_feed:
+  hide: true
