@@ -1,6 +1,32 @@
 ---
-# You don't need to edit this file, it's empty on purpose.
-# Edit theme's home layout instead if you wanna make some changes
-# See: https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 layout: splash
+header:
+    overlay_color: "#fff"
+    overlay_filter: "0.5"
+    overlay_image: assets/images/sample.png
+excerpt: "Peaceful village in the heart of Ireland"
+intro:
+    - excerpt: >
+        Pollagh is a small village in County Offaly, Ireland. It offers nature, history and plenty of activities as well
+        as being an ideal place to explore the Irish midlands from.
+feature_row:
+    -
+        image_path: assets/images/sample.png
+        alt: "Things to Do"
+        url: "/activities"
+        hide_button: true
+    -
+        image_path: assets/images/sample.png
+        alt: "Location"
+        url: "/location"
+        hide_button: true
+    -
+        image_path: assets/images/sample.png
+        alt: "Gallery"
+        url: "/gallery"
+        hide_button: true
 ---
+
+{% include feature_row id="intro" type="center" %}
+
+{% include feature_row %}
