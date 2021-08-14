@@ -1,3 +1,13 @@
 main:
-  - title: "About"
-    url: /about/
+  - title: "Activities"
+    url: /activities/
+  - title: "Gallery"
+    url: /gallery/
+  - title: "History"
+    url: /history/
+  - title: "Location"
+    url: /location/
+  - title: "Services"
+    url: /services/
+  - title: "Contact"
+    url: /contact/
